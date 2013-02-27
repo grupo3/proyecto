@@ -24,16 +24,6 @@
                     </div>
                     <div id="content-bigger2" class="content-middle faq"> 
 
-
-
-
-
-
-
-
-
-
-
                         <script type="text/javascript">
                             setTimeout('r_show_popup()', 2000)
                             function r_show_popup(){
@@ -85,21 +75,13 @@
 <?php
 
 if (isset($_SESSION['show_popup'])){
-    
+    // TODO: Mostrar el popup y setear la variable de sesion a false
 }
 else{
-       
+    // Seteamos la variable de sesion del popup a true   
     $_SESSION['show_popup'] = true;
 }
 ?>
-
-
-
-
-
-
-
-
 
                     </div>  
                     <div class="content-bottom">

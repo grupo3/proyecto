@@ -383,3 +383,39 @@ div{color: #004D99}
 .tabla tr:hover{background: #E9E9E9;}
 
 
+
+#main-popup{display: block;width: 100%;
+            height: 120%;margin: 0px auto;position: absolute;top:0px;z-index: 500;}
+#capa{background-color: #777777;opacity:0.7;width: 100%;height: 100%;
+      position: absolute;display: block;position: absolute;}
+#main-popup-content{display: block;width: 750px;margin: 0px auto;
+                    background-color: #FFFFFF;position: relative;margin-top: 25px;
+                    border: #F0F0BC 15px solid;border-radius: 15px;}
+
+#close{position: absolute;cursor: pointer;top: -30px;right: -30px;}
+
+.control{cursor: pointer;}
+.control-informacion{display: none;}
+.content-top{z-index: 5;margin-top: 25px;}
+.content-title{margin-top: -26px;position: absolute;}
+.editable{margin-left: 120px;}
+
+.signupframe tr td{color: #004D99;letter-spacing: 0.2px;min-width: 130px;
+    padding: 10px 5px;word-spacing: 2px;font-size: 17px;
+    font-family: 'hamburger_heaven_nf',Georgia,"Times New Roman",serif;}
+#SignUp .signupframe{border:0px!important;padding: 15px;}
+.signupframe tr td input{border: 1px dashed #DA3127;
+    color: #5094CA;
+    float: left;
+    font-family: "Arial",serif;
+    font-size: 14px;
+    font-weight: bold;min-width: 230px;}
+.signupframe tr td input[type="submit"]{
+    border: 1px solid #004D99;
+    border-radius: 5px 5px 5px 5px;
+    color: #004D99;
+    font-family: 'hamburger_heaven_nf',Georgia,"Times New Roman",serif;
+    font-size: 18px;
+    font-weight: normal;
+    min-width: 50px;
+}  
